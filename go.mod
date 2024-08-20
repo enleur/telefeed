@@ -4,6 +4,7 @@ go 1.23
 
 require (
 	github.com/amacneil/dbmate/v2 v2.19.0
+	github.com/caarlos0/env/v11 v11.2.2
 	github.com/joho/godotenv v1.5.1
 	github.com/mmcdole/gofeed v1.3.0
 	github.com/stretchr/testify v1.9.0
@@ -14,7 +15,6 @@ require (
 require (
 	github.com/PuerkitoBio/goquery v1.8.0 // indirect
 	github.com/andybalholm/cascadia v1.3.1 // indirect
-	github.com/caarlos0/env/v11 v11.2.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/lib/pq v1.10.9 // indirect
