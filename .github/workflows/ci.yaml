@@ -39,7 +39,7 @@ jobs:
 
       - name: Test
         run: go test -v ./...
-        
+
   publish:
     runs-on: ubuntu-latest
     needs: build
@@ -68,4 +68,4 @@ jobs:
       - name: Build and push images
         env:
           TAGS: ${{ steps.meta.outputs.tags }}
-        run: ko build cmd/server/main.go --bare --tags $(echo $TAGS | tr ' ' ',')
+        run: ko build cmd/bot/main.go --bare --tags $(echo $TAGS | tr ' ' ',')
