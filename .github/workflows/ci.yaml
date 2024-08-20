@@ -39,3 +39,33 @@ jobs:
 
       - name: Test
         run: go test -v ./...
+        
+  publish:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: 'go.mod'
+
+      - name: Setup ko
+        uses: ko-build/setup-ko@v0.6
+
+      - name: Extract metadata
+        uses: docker/metadata-action@v5
+        id: meta
+        with:
+          images: ""
+          tags: |
+            type=ref,event=branch
+            type=sha
+            type=sha,format=long
+            type=raw,value=latest,enable={{is_default_branch}}
+
+      - name: Build and push images
+        env:
+          TAGS: ${{ steps.meta.outputs.tags }}
+        run: ko build cmd/server/main.go --bare --tags $(echo $TAGS | tr ' ' ',')
