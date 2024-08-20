@@ -1,0 +1,14 @@
+run:
+  concurrency: 4
+  timeout: 10m
+
+linters:
+  enable:
+    - errcheck
+    - goimports
+    - govet
+    - staticcheck
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
