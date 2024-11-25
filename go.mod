@@ -7,7 +7,7 @@ require (
 	github.com/caarlos0/env/v11 v11.2.2
 	github.com/joho/godotenv v1.5.1
 	github.com/mmcdole/gofeed v1.3.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	go.uber.org/zap v1.27.0
 	gopkg.in/telebot.v3 v3.3.8
 )
