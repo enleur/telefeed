@@ -4,7 +4,7 @@ go 1.23
 
 require (
 	github.com/amacneil/dbmate/v2 v2.24.2
-	github.com/caarlos0/env/v11 v11.3.0
+	github.com/caarlos0/env/v11 v11.3.1
 	github.com/joho/godotenv v1.5.1
 	github.com/mmcdole/gofeed v1.3.0
 	github.com/stretchr/testify v1.10.0
