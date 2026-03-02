@@ -3,7 +3,7 @@ module telefeed
 go 1.24.1
 
 require (
-	github.com/amacneil/dbmate/v2 v2.30.0
+	github.com/amacneil/dbmate/v2 v2.31.0
 	github.com/caarlos0/env/v11 v11.4.0
 	github.com/joho/godotenv v1.5.1
 	github.com/mmcdole/gofeed v1.3.0
