@@ -4,7 +4,7 @@ go 1.26.0
 
 require (
 	github.com/amacneil/dbmate/v2 v2.37.0
-	github.com/caarlos0/env/v11 v11.4.1
+	github.com/caarlos0/env/v11 v11.4.2
 	github.com/joho/godotenv v1.5.1
 	github.com/mmcdole/gofeed v1.5.0
 	github.com/stretchr/testify v1.12.1
