@@ -65,8 +65,8 @@ github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751/go.mod h1:LOuy
 github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf/go.mod h1:ybxpYRFXyAe+OPACYpWeL0wqObRcbAqCMya13uyzqw0=
 github.com/alecthomas/units v0.0.0-20190717042225-c3de453c63f4/go.mod h1:ybxpYRFXyAe+OPACYpWeL0wqObRcbAqCMya13uyzqw0=
 github.com/alecthomas/units v0.0.0-20190924025748-f65c72e2690d/go.mod h1:rBZYJk541a8SKzHPHnH3zbiI+7dagKZ0cgpgrD7Fyho=
-github.com/amacneil/dbmate/v2 v2.37.0 h1:765zr4r5roplxO2hHiGDY5kIpqvZ89+LbTWKq0XnsCo=
-github.com/amacneil/dbmate/v2 v2.37.0/go.mod h1:qRwZv2g5kVwMW1QOfSvW71JuJZGBpDRw+L2rTFbh54o=
+github.com/amacneil/dbmate/v2 v2.38.1 h1:Zm1gW1x76JGQAcqTRBs108HVf5PsW+6/d3yu2LrLtjs=
+github.com/amacneil/dbmate/v2 v2.38.1/go.mod h1:bDThHAlfOLe4RSHZNCLVbKSA2bl8e3/KyVY0SPpsX8U=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e/go.mod h1:3U/XgcO3hCbHZ8TKRvWD2dDTCfh9M9ya+I9JpbB7O8o=
 github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da/go.mod h1:Q73ZrmVTwzkszR9V5SSuryQ31EELlFMUz1kKyl939pY=
